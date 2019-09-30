@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>All About Me</title>
+            <link href="style.css" rel="stylesheet">
+    </head>
+   
+    <body>
+    <button>Assignment 1</botton>
+        
+        <p>My name is Abdulhameed, I am 16 years old.</p>
+      <h2>MY Background<h2>
+<p>I was born and raised in kuwait but my family are from lebanon. Currently I have been living in Canada for 3 years.<p>
+      <h2>Experience<h2> 
+      I have no experience with coding but, I know it will be helpful in the future.
+      <h2>Interests<h2>
+      My interest about coding is that you can do whatever you want for your website for ex. (creating websites,
+       making genres of games). my main goal is to learn how to code java script.
+       <h2>My Tech Skils<h2>
+       I don't have a lot of tech skills but I learned 
+
+      
+    </body>
+
+

@@ -1,9 +1,12 @@
 body{
-    background-color: rgb(48, 71, 6);
+    background-color:rgb(3, 2, 24);
     color:white;
 }
 
 
 title{
     font-size: 25cm;
+}
+#interest{
+    text-align: center;
 }

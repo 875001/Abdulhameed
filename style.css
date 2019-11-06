@@ -1,12 +1,51 @@
 body{
-    background-color:red rgb(3, 2, 24);
+    background-color: rgb(3, 2, 24);
     color:white;
 }
-
 
 title{
     font-size: 25cm;
 }
+#interest button{
+    text-align: center;
+    background-color: rgb(132, 129, 184);
+    color:white;
+    padding: 1em;
+    margin: 2em;
+}
+
 #interest{
     text-align: center;
 }
+
+/* navbar styles*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #226;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: rgb(018, 172, 180);
+  }

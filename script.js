@@ -6,6 +6,32 @@ function angle3(){
     alert("the 3rd angle is" + angle3);
 }
 
+function century(){
+  // prompt user for the current_year
+  // use their input to calculate the current_century
+  // alert the user to the current_century
+    
+
+}
+
+function tenfour(){
+    for(let i = 0; i < 101 ; i++){
+        if(i % 10 == 0 && i % 4 == 0){
+            console.log("tenFour");
+        }
+        else if(i % 4 == 0){
+            console.log("Four");
+        }
+        else if(i % 10 == 0){
+            console.log("Ten");
+        }
+        else {
+            console.log(i);
+        }
+    }
+}
+
+
 function test(){
     console.log("working!");
 }
@@ -15,17 +41,5 @@ function test(){
 //  centryfromyear(295) returns (3)
 //  centryfromyear(305) returns (4)
  
-//  for(let i = 0; i < 101 ; i++){
-//      if(i % 10 == 0 && i % 4 == 0){
-//          console.log("tenFour");
-//      }
-//      else if(i % 4 == 0){
-//          console.log("Four");
-//      }
-//      else if(i % 10 == 0){
-//          console.log("Ten");
-//      }
-//      else {
-         
-//      }
+ 
 //  }

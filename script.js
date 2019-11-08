@@ -43,3 +43,20 @@ function test(){
  
  
 //  }
+
+function wordlength(){
+    let words = prompt("enter some texts");
+    let howmany = words.length;
+    alert("there are "+ howmany+" letters");
+}
+
+function login(){
+    let username = prompt("username");
+    let password = prompt("password");
+    if(username == "abdul" && password == "June2003"){
+        alert("Welcome")
+    }
+    else{
+        alert("Invalid")
+    }
+}

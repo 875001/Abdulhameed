@@ -64,7 +64,7 @@ function login(){
 function Encrypt(){
     let plaintext = prompt('Type plaintext here');
     let ciphertext = '';
-    ciphertext = plaintext.replace('b','nxt')plaintext.replace('e','hhk')plaintext.replace('a','ddk')plaintext.replace('t','bbk');
+    ciphertext = plaintext.replace('b','nxt').replace('e','hhk').replace('a','ddk').replace('t','bbk');
     document.getElementById("ciphertext").innerHTML = ciphertext; 
 }
 
@@ -72,7 +72,7 @@ function Encrypt(){
 function Decrypt(){
     let plaintext = prompt('Type plaintext here');
     let ciphertext = '';
-    ciphertext = plaintext.replace('nxt','b')plaintext.replace('hhk','e')plaintext.replace('ddk','a')plaintext.replace('bbk','t');
+    ciphertext = plaintext.replace('nxt','b').replace('hhk','e').replace('ddk','a').replace('bbk','t');
     document.getElementById("ciphertext").innerHTML = ciphertext; 
 }
     

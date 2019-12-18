@@ -61,7 +61,7 @@ function login(){
     }
 }
 
-function encrypt(){
+function Encrypt(){
     let plaintext = prompt('Type plaintext here');
     let ciphertext = '';
     ciphertext = plaintext.replace('b','nxt')plaintext.replace('e','hhk')plaintext.replace('a','ddk')plaintext.replace('t','bbk');
@@ -69,7 +69,7 @@ function encrypt(){
 }
 
 
-function decrypt(){
+function Decrypt(){
     let plaintext = prompt('Type plaintext here');
     let ciphertext = '';
     ciphertext = plaintext.replace('nxt','b')plaintext.replace('hhk','e')plaintext.replace('ddk','a')plaintext.replace('bbk','t');

@@ -60,3 +60,19 @@ function login(){
         alert("Invalid")
     }
 }
+
+function encrypt(){
+    let plaintext = prompt('Type plaintext here');
+    let ciphertext = '';
+    ciphertext = plaintext.replace('b','nxt')plaintext.replace('e','hhk')plaintext.replace('a','ddk')plaintext.replace('t','bbk');
+    document.getElementById("ciphertext").innerHTML = ciphertext; 
+}
+
+
+function decrypt(){
+    let plaintext = prompt('Type plaintext here');
+    let ciphertext = '';
+    ciphertext = plaintext.replace('nxt','b')plaintext.replace('hhk','e')plaintext.replace('ddk','a')plaintext.replace('bbk','t');
+    document.getElementById("ciphertext").innerHTML = ciphertext; 
+}
+    

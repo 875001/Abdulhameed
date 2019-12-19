@@ -64,7 +64,7 @@ function login(){
 function Encrypt(){
     let plaintext = prompt('Type plaintexts here');
     let ciphertext = '';
-    ciphertext = plaintext.replace('a','d').replace('b','e').replace('c','f').replace('d','g').replace('e','h').replace('f','i').replace('g','j').replace('h','k').replace('i','l').replace('j','m').replace('k','n').replace('l','o').replace('m','p').replace('n','q').replace('o','r').replace('p','s').replace('q','t').replace('r','u').replace('s','v').replace('t','w').replace('u','x').replace('v','y').replace('w','z').replace('x','a').replace('y','b').replace('z','c');
+    ciphertext = plaintext.replace('a','d').replace('b','e').replace('c','f').replace('g','j').replace('h','k').replace('i','l').replace('m','p').replace('n','q').replace('o','r').replace('s','v').replace('t','w').replace('u','x').replace('y','z');
     document.getElementById("ciphertext").innerHTML = ciphertext; 
 }
 
@@ -72,7 +72,7 @@ function Encrypt(){
 function Decrypt(){
     let plaintext = prompt('Type plaintexts here');
     let ciphertext = '';
-    ciphertext = plaintext.replace('d','a').replace('e','b').replace('f','c').replace('g','d').replace('h','e').replace('i','f').replace('j','g').replace('k','h').replace('l','i').replace('m','j').replace('n','k').replace('o','l').replace('p','m').replace('q','n').replace('r','o').replace('s','q').replace('t','q').replace('u','r').replace('v','s').replace('w','t').replace('x','u').replace('y','v').replace('z','w').replace('a','x').replace('b','y').replace('c','z');
+    ciphertext = plaintext.replace('d','a').replace('e','b').replace('f','c').replace('j','g').replace('k','h').replace('l','i').replace('p','m').replace('q','n').replace('r','o').replace('v','s').replace('w','t').replace('x','u').replace('y','z')
     document.getElementById("ciphertext").innerHTML = ciphertext; 
 }
     

@@ -64,7 +64,7 @@ function login(){
 function Encrypt(){
     let plaintext = prompt('Type plaintexts here');
     let ciphertext = '';
-    ciphertext = plaintext.replace('a'='b').replace('b'='o').replace('c'='p').replace('d'='q').replace('e'='r').replace('f'='s').replace('g'='t').replace('h'='u').replace('i'='v').replace('j'='w').replace('k'='x').replace('l'='y').replace('m'='z').replace('n'='a').replace('o'='b').replace('p'='c').replace('q'='d').replace('r'='e').replace('s'='f').replace('t'='g').replace('u'='h').replace('v'='i').replace('w'='j').replace('x'='k').replace('y'='l').replace('z'='m');
+    ciphertext = plaintext.replace(/a/g,'A1').replace('b'='o').replace('c'='p').replace('d'='q').replace('e'='r').replace('f'='s').replace('g'='t').replace('h'='u').replace('i'='v').replace('j'='w').replace('k'='x').replace('l'='y').replace('m'='z').replace('n'='a').replace('o'='b').replace('p'='c').replace('q'='d').replace('r'='e').replace('s'='f').replace('t'='g').replace('u'='h').replace('v'='i').replace('w'='j').replace('x'='k').replace('y'='l').replace('z'='m');
     document.getElementById("ciphertext").innerHTML = ciphertext; 
 }
 
@@ -72,7 +72,7 @@ function Encrypt(){
 function Decrypt(){
     let plaintext = prompt('Type plaintexts here');
     let ciphertext = '';
-    ciphertext = plaintext.replace('b'='a').replace('o'='b').replace('p'='c').replace('q'='d').replace('r'='e').replace('s'='f').replace('t'='g').replace('u'='h').replace('v'='i').replace('w'='j').replace('x'='k').replace('y'='l').replace('z'='m').replace('a'='n').replace('b'='o').replace('c'='p').replace('d'='q').replace('e'='r').replace('f'='s').replace('g'='t').replace('h'='u').replace('i'='v').replace('j'='w').replace('k'='x').replace('l'='y').replace('m'='z');
+    ciphertext = plaintext.replace(/A1/g,'a').replace('o'='b').replace('p'='c').replace('q'='d').replace('r'='e').replace('s'='f').replace('t'='g').replace('u'='h').replace('v'='i').replace('w'='j').replace('x'='k').replace('y'='l').replace('z'='m').replace('a'='n').replace('b'='o').replace('c'='p').replace('d'='q').replace('e'='r').replace('f'='s').replace('g'='t').replace('h'='u').replace('i'='v').replace('j'='w').replace('k'='x').replace('l'='y').replace('m'='z');
     document.getElementById("ciphertext").innerHTML = ciphertext; 
 }
     

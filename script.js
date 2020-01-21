@@ -64,7 +64,7 @@ function login(){
 function Encrypt(){
     let plaintext = prompt('Type plaintexts here');
     let ciphertext = '';
-    ciphertext = plaintext.replace('a','z').replace('b','o').replace('c','p').replace('d','q').replace('e','r').replace('f','s').replace('g','t').replace('h','u').replace('i','v').replace('j','w').replace('k','x').replace('l','y').replace('m','z').replace('n','a').replace('o','b').replace('p','c').replace('q','d').replace('r','e').replace('s','f').replace('t','g').replace('u','h').replace('v','i').replace('w','j').replace('x','k').replace('y','l').replace('z','m');
+    ciphertext = plaintext.replace(/a/g,'F1').replace(/b/g,F2).replace(/c/g,'F3').replace(/d/g,'F4').replace(/e/g,'F5').replace(/f/g,'F6').replace(/g/g,'F7').replace(/h/g,'F8').replace(/i/g,'F9').replace(/j/g,'F10').replace(/k/g,'F11').replace(/l/g,'F12').replace(/m/g,'F13').replace(/n/g,'F14').replace(/o/g,'F15').replace(/p/g,'F16').replace(/q/g,'F17').replace(/r/g,'F18').replace(/s/g,'F19').replace(/t/g,'F20').replace(/u/g,'F21').replace(/v/g,'F22').replace(/w/g,'F23').replace(/x/g,'F24').replace(y/g,'F25').replace(/z/g,'F26');
     document.getElementById("ciphertext").innerHTML = ciphertext; 
 }
 
@@ -72,7 +72,7 @@ function Encrypt(){
 function Decrypt(){
     let plaintext = prompt('Type plaintexts here');
     let ciphertext = '';
-    ciphertext = plaintext.replace('z','a').replace('o','b').replace('p','c').replace('q','d').replace('r','e').replace('s','f').replace('t','g').replace('u','h').replace('v','i').replace('w','j').replace('x','k').replace('y','l').replace('z','m').replace('a','n').replace('b','o').replace('c','p').replace('d','q').replace('e','r').replace('f','s').replace('g','t').replace('h','u').replace('i','v').replace('j','w').replace('k','x').replace('l','y').replace('m','z');
+    ciphertext = plaintext.replace(/F1/g,'a').replace(/F2/g,'b').replace(/F3/g,'c').replace(/F4/g,'d').replace(/F5/g,'e').replace(/F6/g,'f').replace(/F7/g,'g').replace(/F8/g,'h').replace(/F9/g,'i').replace(/F10/g,'j').replace(/F11/g,'k').replace(/F12/g,'l').replace(/F13/g,'m').replace(/F14/g,'n').replace(/F15/g,'o').replace(/F16/g,'p').replace(/F17/g,'q').replace(/F18/g,'r').replace(/F19/g,'s').replace(/F20/g,'t').replace(/F21/g,'u').replace(/F22/g,'v').replace(/F23/g,'w').replace(/F24/g,'x').replace(/F25/,'y').replace(/F26/g,'z');
     document.getElementById("ciphertext").innerHTML = ciphertext; 
 }
     
